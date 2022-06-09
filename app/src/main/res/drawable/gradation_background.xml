@@ -6,6 +6,12 @@
     android:viewportWidth="393"
     android:viewportHeight="786">
 
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="393dp"
+    android:height="786dp"
+    android:viewportWidth="393"
+    android:viewportHeight="786">
+
     <group>
 
         <clip-path android:pathData="M0 0H393V786H0V0Z" />
@@ -31,11 +37,11 @@
                         android:type="linear">
 
                         <item
-                            android:color="#4D77FF"
+                            android:color="#7527A6"
                             android:offset="0" />
 
                         <item
-                            android:color="#5EE6EB"
+                            android:color="#17B1C5"
                             android:offset="1" />
 
                     </gradient>

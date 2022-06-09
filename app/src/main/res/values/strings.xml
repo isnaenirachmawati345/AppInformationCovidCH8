@@ -6,4 +6,6 @@
     <string name="favorite">Favorite</string>
     <string name="all_cases">all cases</string>
     <string name="country">country</string>
+    <string name="next">next</string>
+    <string name="tv_empty_text">tv empty text</string>
 </resources>
