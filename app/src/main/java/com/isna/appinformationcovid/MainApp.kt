@@ -1,7 +1,7 @@
 package com.isna.appinformationcovid
 
 import android.app.Application
-import com.than.covidapp_challengeschapter7.di.*
+import com.isna.appinformationcovid.di.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

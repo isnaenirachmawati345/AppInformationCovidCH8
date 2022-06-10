@@ -1,8 +1,8 @@
 package com.isna.appinformationcovid.di
 
 import androidx.room.Room
-import com.than.covidapp_challengeschapter7.data.room.CovidDatabase
-import com.than.covidapp_challengeschapter7.data.room.DatabaseHelper
+import com.isna.appinformationcovid.data.room.CovidDatabase
+import com.isna.appinformationcovid.data.room.DatabaseHelper
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module

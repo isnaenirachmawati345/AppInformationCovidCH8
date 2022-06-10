@@ -2,8 +2,8 @@ package com.isna.appinformationcovid.di
 
 import com.chuckerteam.chucker.api.ChuckerCollector
 import com.chuckerteam.chucker.api.ChuckerInterceptor
-import com.than.covidapp_challengeschapter7.data.service.ApiHelper
-import com.than.covidapp_challengeschapter7.data.service.ApiService
+import com.isna.appinformationcovid.data.service.ApiHelper
+import com.isna.appinformationcovid.data.service.ApiService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidContext

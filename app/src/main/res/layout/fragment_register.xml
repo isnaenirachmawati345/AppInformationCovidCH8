@@ -32,7 +32,7 @@
             app:layout_constraintStart_toStartOf="@+id/bg_login"
             app:layout_constraintTop_toTopOf="@+id/bg_login" />
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_nama"
+            android:id="@+id/til_namaFrom"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -43,12 +43,12 @@
             app:layout_constraintStart_toStartOf="@id/bg_login"
             app:layout_constraintTop_toBottomOf="@id/iv_logo">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_nama"
+                android:id="@+id/et_namaFrom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_email"
+            android:id="@+id/til_fromEmail"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -58,14 +58,14 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="@id/bg_login"
             app:layout_constraintStart_toStartOf="@id/bg_login"
-            app:layout_constraintTop_toBottomOf="@id/til_nama">
+            app:layout_constraintTop_toBottomOf="@id/til_namaFrom">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_email"
+                android:id="@+id/et_fromEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_username"
+            android:id="@+id/til_FromUsername"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -75,14 +75,14 @@
             app:errorEnabled="true"
             app:layout_constraintEnd_toEndOf="@id/bg_login"
             app:layout_constraintStart_toStartOf="@id/bg_login"
-            app:layout_constraintTop_toBottomOf="@id/til_email">
+            app:layout_constraintTop_toBottomOf="@id/til_fromEmail">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_username"
+                android:id="@+id/et_fromUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/til_password"
+            android:id="@+id/til_fromPassword"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -93,9 +93,9 @@
             app:passwordToggleEnabled="true"
             app:layout_constraintEnd_toEndOf="@id/bg_login"
             app:layout_constraintStart_toStartOf="@id/bg_login"
-            app:layout_constraintTop_toBottomOf="@id/til_username">
+            app:layout_constraintTop_toBottomOf="@id/til_FromUsername">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_password"
+                android:id="@+id/et_fromPassword"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -112,7 +112,7 @@
             app:passwordToggleEnabled="true"
             app:layout_constraintEnd_toEndOf="@id/bg_login"
             app:layout_constraintStart_toStartOf="@id/bg_login"
-            app:layout_constraintTop_toBottomOf="@id/til_password">
+            app:layout_constraintTop_toBottomOf="@id/til_fromPassword">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_confirm_password"
                 android:inputType="textPassword"
@@ -126,7 +126,7 @@
             android:layout_height="64dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:backgroundTint="@color/blue_young"
+            android:backgroundTint="@color/puple_uyee"
             android:text="Register"
             app:layout_constraintBottom_toBottomOf="@+id/bg_login"
             app:layout_constraintEnd_toEndOf="@+id/bg_login"
@@ -150,7 +150,7 @@
             android:id="@+id/btn_login"
             android:layout_width="0dp"
             android:layout_height="64dp"
-            android:backgroundTint="@color/blue_young"
+            android:backgroundTint="@color/puple_uyee"
             android:layout_marginBottom="16dp"
             android:text="Login"
             app:layout_constraintTop_toBottomOf="@id/tv_belom"

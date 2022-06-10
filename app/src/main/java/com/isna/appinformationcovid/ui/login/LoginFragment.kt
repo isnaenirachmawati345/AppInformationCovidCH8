@@ -1,7 +1,6 @@
 package com.isna.appinformationcovid.ui.login
 
 import android.app.AlertDialog
-import android.graphics.Color.blue
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -196,7 +195,7 @@ class LoginFragment : Fragment() {
                         end.linkTo(box.end)
                         start.linkTo(box.start)
                     },
-                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue_young))
+                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.puple_uyee))
             ) {
                 Text(
                     text = "LOGIN",
@@ -230,7 +229,7 @@ class LoginFragment : Fragment() {
                         end.linkTo(parent.end)
                         start.linkTo(parent.start)
                     },
-                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue_young))
+                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.puple_uyee))
             ) {
                 Text(
                     text = "REGISTER",

@@ -137,7 +137,7 @@ class HomeFragment : Fragment() {
                 }
                 Status.SUCCESS -> {
                     binding.tvAllCases.text = getString(
-                        R.string.jumlah_kasus_seluruh_dunia_s,
+                        R.string.jumlah_kasus_seluruh_dunia,
                         resource.data?.cases.toString()
                     )
                     binding.pbMain.visibility = View.GONE

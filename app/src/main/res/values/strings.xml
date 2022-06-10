@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">AppInformationCovid</string>
     <string name="welcome">welcome</string>
-    <string name="aga_kesehatan_dan_patuhi_protokol_kesehatan_ya">aga_kesehatan_dan_patuhi_protokol_kesehatan_ya</string>
-    <string name="jumlah_kasus_seluruh_dunia_s">jumlah_kasus_seluruh_dunia_s</string>
+    <string name="textOne">jaga kesehatan dan patuhi protokol kesehatan ya</string>
+    <string name="jumlah_kasus_seluruh_dunia">jumlah kasus seluruh dunia </string>
     <string name="favorite">Favorite</string>
     <string name="all_cases">all cases</string>
     <string name="country">country</string>

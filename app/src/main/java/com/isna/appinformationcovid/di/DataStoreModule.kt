@@ -1,6 +1,6 @@
 package com.isna.appinformationcovid.di
 
-import com.than.covidapp_challengeschapter7.data.DataStoreManager
+import com.isna.appinformationcovid.data.DataStoreManager
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.module
 

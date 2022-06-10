@@ -1,11 +1,11 @@
 package com.isna.appinformationcovid.di
 
-import com.than.covidapp_challengeschapter7.ui.detail.DetailFragmentViewModel
-import com.than.covidapp_challengeschapter7.ui.edit.EditFragmentViewModel
-import com.than.covidapp_challengeschapter7.ui.favorite.FavoriteFragmentViewModel
-import com.than.covidapp_challengeschapter7.ui.home.HomeFragmentViewModel
-import com.than.covidapp_challengeschapter7.ui.login.LoginFragmentViewModel
-import com.than.covidapp_challengeschapter7.ui.register.RegisterFragmentViewModel
+import com.isna.appinformationcovid.ui.detail.DetailFragmentViewModel
+import com.isna.appinformationcovid.ui.edit.EditFragmentViewModel
+import com.isna.appinformationcovid.ui.favorite.FavoriteFragmentViewModel
+import com.isna.appinformationcovid.ui.home.HomeFragmentViewModel
+import com.isna.appinformationcovid.ui.login.LoginFragmentViewModel
+import com.isna.appinformationcovid.ui.register.RegisterFragmentViewModel
 import org.koin.androidx.viewmodel.dsl.viewModelOf
 import org.koin.dsl.module
 

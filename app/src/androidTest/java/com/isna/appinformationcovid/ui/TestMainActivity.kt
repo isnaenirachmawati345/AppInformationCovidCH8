@@ -46,10 +46,10 @@ class TestMainActivity{
 
         val textInputEditText = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_nama),
+                withId(R.id.et_namaFrom),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_nama),
+                        withId(R.id.til_namaFrom),
                         0
                     ),
                     0
@@ -64,10 +64,10 @@ class TestMainActivity{
 
         val textInputEditText2 = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_email),
+                withId(R.id.et_fromEmail),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_email),
+                        withId(R.id.til_fromEmail),
                         0
                     ),
                     0
@@ -82,10 +82,10 @@ class TestMainActivity{
 
         val textInputEditText3 = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_username),
+                withId(R.id.et_fromUsername),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_username),
+                        withId(R.id.til_FromUsername),
                         0
                     ),
                     0
@@ -100,10 +100,10 @@ class TestMainActivity{
 
         val textInputEditText4 = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_password),
+                withId(R.id.et_fromPassword),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_password),
+                        withId(R.id.til_fromPassword),
                         0
                     ),
                     0
@@ -150,10 +150,10 @@ class TestMainActivity{
 
         val textInputEditText6 = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_username),
+                withId(R.id.et_fromUsername),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_username),
+                        withId(R.id.til_FromUsername),
                         0
                     ),
                     0
@@ -165,10 +165,10 @@ class TestMainActivity{
 
         val textInputEditText7 = Espresso.onView(
             Matchers.allOf(
-                withId(R.id.et_password),
+                withId(R.id.et_fromPassword),
                 childAtPosition(
                     childAtPosition(
-                        withId(R.id.til_password),
+                        withId(R.id.til_fromPassword),
                         0
                     ),
                     0

@@ -275,7 +275,7 @@ class RegisterFragmen : Fragment() {
                         end.linkTo(box.end)
                         start.linkTo(box.start)
                     },
-                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue_young))
+                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.puple_uyee))
             ) {
                 Text(
                     text = "REGISTER",
@@ -310,7 +310,7 @@ class RegisterFragmen : Fragment() {
                         end.linkTo(parent.end)
                         start.linkTo(parent.start)
                     },
-                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue_young))
+                colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.puple_uyee))
             ) {
                 Text(
                     text = "LOGIN",
